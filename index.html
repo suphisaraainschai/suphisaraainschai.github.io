@@ -63,4 +63,112 @@
 
     .feed-header img {
       width: 32px;
-      hei
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .feed-img {
+      width: 100%;
+    }
+
+    .feed-actions {
+      display: flex;
+      padding: 10px;
+    }
+
+    .feed-actions img {
+      width: 24px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .caption {
+      padding: 0 10px 10px 10px;
+    }
+
+    .story-bar {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px;
+      background: white;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+
+    .story {
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    .story img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #ff004f;
+    }
+
+    .story span {
+      font-size: 12px;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">InstaClone</div>
+    <div class="search-bar">
+      <input type="text" placeholder="ค้นหา...">
+    </div>
+    <div class="nav-icons">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/home.png" alt="home">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/plus-math.png" alt="add">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/user.png" alt="profile">
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <div class="story-bar">
+        <div class="story">
+          <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
+          <span>คุณเอ</span>
+        </div>
+        <div class="story">
+          <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+          <span>คุณบี</span>
+        </div>
+        <div class="story">
+          <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+          <span>คุณซี</span>
+        </div>
+        <!-- เพิ่ม story ได้ตามต้องการ -->
+      </div>
+
+      <div class="feed">
+        <div class="feed-header">
+          <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="">
+          <strong>nina.s</strong>
+        </div>
+        <img class="feed-img" src="https://source.unsplash.com/500x500/?nature,water" alt="">
+        <div class="feed-actions">
+          <img src="https://img.icons8.com/ios-glyphs/30/like.png" alt="like">
+          <img src="https://img.icons8.com/ios-glyphs/30/comments.png" alt="comment">
+          <img src="https://img.icons8.com/ios-glyphs/30/paper-plane.png" alt="share">
+        </div>
+        <div class="caption">
+          <strong>nina.s</strong> ชอบธรรมชาติ 🌿💦
+        </div>
+      </div>
+
+      <!-- เพิ่มโพสต์อื่นๆ ได้ตามต้องการ -->
+
+    </div>
+  </main>
+
+</body>
+</html>
