@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บไซต์ของฉัน</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #0088cc;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #f2f2f2;
-            color: #333;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InstaClone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+    }
 
-    <header>
-        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
-    </header>
+    header {
+      background-color: white;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
 
-    <main>
-        <h2>เกี่ยวกับเว็บไซต์</h2>
-        <p>นี่คือหน้าเว็บตัวอย่างที่สร้างด้วย HTML และ CSS พื้นฐาน</p>
-    </main>
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #262626;
+    }
 
-    <footer>
-        &copy; 2025 เว็บไซต์ของฉัน
-    </footer>
+    .search-bar input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
 
-</body>
-</html>
-  
+    .nav-icons img {
+      width: 24px;
+      margin-left: 15px;
+      cursor: pointer;
+    }
 
+    main {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .feed {
+      width: 500px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .feed-header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .feed-header img {
+      width: 32px;
+      hei
